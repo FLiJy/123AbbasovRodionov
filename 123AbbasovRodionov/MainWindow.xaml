@@ -1,0 +1,28 @@
+﻿<Window x:Class="_123AbbasovRodionov.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Практическая работа 4 - Abbasov Rodionov - Вариант 12" 
+        Height="600" Width="800"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Навигация -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" 
+                    HorizontalAlignment="Center" Margin="10">
+            <Button Content="Страница 1" Click="NavButton_Click" 
+                    Tag="Page1" ToolTip="Перейти к первой функции"/>
+            <Button Content="Страница 2" Click="NavButton_Click" 
+                    Tag="Page2" ToolTip="Перейти ко второй функции"/>
+            <Button Content="Страница 3" Click="NavButton_Click" 
+                    Tag="Page3" ToolTip="Перейти к третьей функции"/>
+        </StackPanel>
+
+        <!-- Контейнер для страниц -->
+        <Frame x:Name="MainFrame" Grid.Row="1" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>
