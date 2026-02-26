@@ -15,7 +15,7 @@
 
         <!-- Изображение функции -->
         <Image Grid.Row="0" Height="150" Stretch="Uniform"
-               ToolTip="Формулы для выбора"
+               ToolTip="Формула для варианта 12 (Страница 2)"
                Source="/Images/formula2.png"/>
 
         <!-- Ввод данных -->
@@ -24,41 +24,51 @@
             <Label Content="x =" ToolTip="Введите значение x"/>
             <TextBox x:Name="TxtX" Width="100" 
                      ToolTip="Поле для ввода переменной x"/>
+
+            <Label Content="y =" ToolTip="Введите значение y"/>
+            <TextBox x:Name="TxtY" Width="100" 
+                     ToolTip="Поле для ввода переменной y"/>
         </StackPanel>
 
-        <!-- Выбор функции -->
+        <!-- Выбор функции f(x) -->
         <StackPanel Grid.Row="2" Orientation="Horizontal" 
                     HorizontalAlignment="Center">
-            <Label Content="Выберите функцию:" 
-                   ToolTip="Выберите тип функции для вычисления"/>
+            <Label Content="Выберите f(x):" 
+                   ToolTip="Выберите тип функции f(x) для вычисления"/>
             <RadioButton x:Name="RbSh" Content="sh(x)" GroupName="FuncSelect"
-                         ToolTip="Гиперболический синус" Margin="5"/>
+                         ToolTip="Гиперболический синус: sh(x) = (e^x - e^(-x)) / 2" Margin="5"/>
             <RadioButton x:Name="RbX2" Content="x²" GroupName="FuncSelect"
-                         ToolTip="Квадрат числа" Margin="5"/>
+                         ToolTip="Квадрат числа: f(x) = x²" Margin="5" IsChecked="True"/>
             <RadioButton x:Name="RbExp" Content="e^x" GroupName="FuncSelect"
-                         ToolTip="Экспонента" Margin="5"/>
+                         ToolTip="Экспонента: f(x) = e^x" Margin="5"/>
         </StackPanel>
 
+        <!-- Информация об условии -->
+        <TextBlock Grid.Row="3" x:Name="TxtCondition" 
+                   Foreground="Blue" TextWrapping="Wrap"
+                   HorizontalAlignment="Center" Margin="10"
+                   ToolTip="Текущее условие для расчёта"/>
+
         <!-- Результат -->
-        <StackPanel Grid.Row="3" Orientation="Horizontal" 
+        <StackPanel Grid.Row="4" Orientation="Horizontal" 
                     HorizontalAlignment="Center">
-            <Label Content="Результат:" ToolTip="Результат вычисления"/>
+            <Label Content="Результат (b) =" ToolTip="Результат вычисления функции b"/>
             <TextBox x:Name="TxtResult" Width="200" 
                      IsReadOnly="True"
-                     ToolTip="Поле для вывода результата"/>
+                     ToolTip="Поле для вывода результата (заблокировано для редактирования)"/>
         </StackPanel>
 
         <!-- Кнопки -->
-        <StackPanel Grid.Row="4" Orientation="Horizontal" 
+        <StackPanel Grid.Row="5" Orientation="Horizontal" 
                     HorizontalAlignment="Center">
             <Button Content="Вычислить" Click="Calculate_Click" 
-                    ToolTip="Вычислить значение функции"/>
+                    ToolTip="Вычислить значение функции b"/>
             <Button Content="Очистить" Click="Clear_Click" 
                     ToolTip="Очистить все поля"/>
         </StackPanel>
 
         <!-- Сообщение об ошибке -->
-        <TextBlock Grid.Row="5" x:Name="TxtError" 
+        <TextBlock Grid.Row="6" x:Name="TxtError" 
                    Foreground="Red" TextWrapping="Wrap"
                    HorizontalAlignment="Center" Margin="10"/>
     </Grid>
