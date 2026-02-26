@@ -53,7 +53,7 @@ namespace _123AbbasovRodionov.Pages
                 
                 TxtResults.Text = resultsText;
                 
-                // Построение графика
+                //построение графика
                 Chart.Series = new SeriesCollection
                 {
                     new LineSeries
@@ -72,7 +72,7 @@ namespace _123AbbasovRodionov.Pages
         
         private double CalculateFunction(double x, double a, double b)
         {
-            // Формула варианта 12 (страница 3) - пункт 14
+            //Формула варианта 12 (страница 3) - пункт 14
             // y = (x - b) * ln(x² + 12.7)
             return (x - b) * Math.Log(x * x + 12.7);
         }
