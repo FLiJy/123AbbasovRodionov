@@ -54,7 +54,7 @@
 
 ## тест1
 
-![тест1](test1.png)
+![тест1]([test1.png](https://drive.google.com/file/d/1-Sej66Fpq2xtn9Lqwdzpppq6FTznsDSN/view?usp=drive_link))
 
 ---
 
