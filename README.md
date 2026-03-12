@@ -48,7 +48,7 @@
 
 ## Результат
 
-![Результат](result.png)
+![Результат](https://drive.google.com/file/d/1D6bOs7bxfRJNpOczA5kzaotUni186dj3/view?usp=drive_link)
 
 ---
 
