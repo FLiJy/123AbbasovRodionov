@@ -46,24 +46,18 @@
 
 # Скриншоты работы программы
 
-## Результат
+## Результат работы BankAccount.cs
 
 ![Результат](https://drive.google.com/uc?export=view&id=1D6bOs7bxfRJNpOczA5kzaotUni186dj3)
 
 ---
 
-## тест1
+## результат работы тестов
 
 ![тест1](https://drive.google.com/uc?export=view&id=1-Sej66Fpq2xtn9Lqwdzpppq6FTznsDSN)
 
 ---
 
-## тест
-
-![тест](test.png)
-
----
-
 # Результат тестирования
 
-После запуска тестов в **Test Explorer** все тесты выполняются успешно.
+После запуска тестов в **обозревателе тестов** все тесты выполняются успешно.
