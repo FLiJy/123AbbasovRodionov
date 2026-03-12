@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="Bank/Bank.csproj" Id="f33a72fe-c44e-4625-8df1-2ea7b4b2b498" />
+  <Project Path="BankTests/BankTests.csproj" Id="408a4a02-e850-44be-8f6b-51e81e685f13" />
   <Project Path="master/master.csproj" Id="bf32fd22-5f90-453d-bfed-d081eb41302a" />
 </Solution>
