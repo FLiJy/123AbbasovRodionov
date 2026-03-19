@@ -64,6 +64,19 @@ namespace UnitTestProject
         }
 
         /// <summary>
+        /// Проверка ошибки логарифма
+        /// </summary>
+        [TestMethod]
+        public void Page2_LogError()
+        {
+            var page = new Page2();
+
+            bool success = page.Calculate(-2, 3, 2, out double result);
+
+            Assert.IsFalse(success);
+        }
+
+        /// <summary>
         /// Проверка случая y = 0
         /// </summary>
         [TestMethod]
