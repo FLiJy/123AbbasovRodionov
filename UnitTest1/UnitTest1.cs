@@ -6,9 +6,7 @@ namespace UnitTestProject
     [TestClass]
     public class UnitTest1
     {
-        // =========================
         // ТЕСТЫ ДЛЯ PAGE1
-        // =========================
 
         /// <summary>
         /// Проверка корректного вычисления Page1
@@ -50,9 +48,7 @@ namespace UnitTestProject
             Assert.IsTrue(success);
         }
 
-        // =========================
         // ТЕСТЫ ДЛЯ PAGE2
-        // =========================
 
         /// <summary>
         /// Проверка нормального случая Page2
@@ -82,10 +78,8 @@ namespace UnitTestProject
         }
 
         
-        // =========================
         // ТЕСТЫ ДЛЯ PAGE3
-        // =========================
-
+        
         /// <summary>
         /// Проверка вычисления функции Page3
         /// </summary>
