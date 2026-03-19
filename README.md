@@ -5,27 +5,27 @@
 
 ## Используемые технологии
 - Язык: C#  
-- Тестирование: MSTest / NUnit / xUnit (укажите, что использовали)  
-- Среда: Visual Studio 2022 / 2025
+- Тестирование: MSTest  
+- Среда: Visual Studio 2026
 
 ## Результаты выполнения программы
 
 ### Примеры работы приложения
 
-![Корректный ввод](https://drive.google.com/uc?export=view&id=1iQCSFz95k5r8kaLm5oHgtDMD4l0RdGzD).  
+![Корректный ввод](https://drive.google.com/uc?export=view&id=1Wy9-IzB3nLTqqM3Jags3wdZ6tAI6KUbt  ).  
 *Обозреватель решений*
 
 
 ## Результаты модульного тестирования
 
-### Окно Test Explorer
+### Окно Обозреватель тестов
 
 Всего тестов: **9**  
 Пройдено: **8**  
 Не пройдено: **1**
 
-![Окно обозревателя тестов](https://drive.google.com/uc?export=view&id=1Wy9-IzB3nLTqqM3Jags3wdZ6tAI6KUbt)  
-*Результаты выполнения всех тестов в Test Explorer*
+![Окно обозревателя тестов](https://drive.google.com/uc?export=view&id=1iQCSFz95k5r8kaLm5oHgtDMD4l0RdGzD)  
+*Результаты выполнения всех тестов вОбозревателе тестов*
 
 ### Подробные результаты тестов
 
