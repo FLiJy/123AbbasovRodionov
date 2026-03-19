@@ -15,7 +15,7 @@
 - Аббасов Матвей
 
 
-## Примеры работы приложения
+## Вид обозревателя решений
 
 ![Корректный ввод](https://drive.google.com/uc?export=view&id=1Wy9-IzB3nLTqqM3Jags3wdZ6tAI6KUbt  ).  
 *Обозреватель решений*
@@ -72,7 +72,9 @@
 
 
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br>
+
 
 
 
