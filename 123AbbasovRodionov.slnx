@@ -1,3 +1,4 @@
 <Solution>
-  <Project Path="master/master.csproj" Id="bf32fd22-5f90-453d-bfed-d081eb41302a" />
+  <Project Path="AuthTests/PR14UnitTests.csproj" Id="8a7a49b9-b32b-4dd9-9e91-489216068b11" />
+  <Project Path="PR14/PR14/PR14.csproj" Id="04da7832-57a3-4f62-b96f-f7e66da0fe98" />
 </Solution>
