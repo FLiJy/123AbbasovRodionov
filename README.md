@@ -26,4 +26,6 @@
 
 ## Результат
 После исправления ошибка устранена. При вызове `Fibonacci(5)` программа корректно выводит результат **5**.
-<img src="FLiJy/123AbbasovRodionov/tree/master/2222222222222.jpg" alt="Описание" width="500" />
+<img src="123AbbasovRodionov
+/2222222222222.jpg
+" alt="Описание" width="500" />
