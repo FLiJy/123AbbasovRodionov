@@ -1,3 +1,4 @@
 <Solution>
-  <Project Path="master/master.csproj" Id="bf32fd22-5f90-453d-bfed-d081eb41302a" />
+  <Project Path="UnitTestProject1/UnitTestProject1.csproj" Id="2d842955-45a5-4d59-99f9-35039c1460d9" />
+  <Project Path="WpfApp1/PR7_Variant13.csproj" Id="59d1189f-6273-4cb5-ab95-2e5a44dfea0b" />
 </Solution>
