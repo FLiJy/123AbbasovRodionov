@@ -8,7 +8,7 @@
 * Родионов Даниил
 
 ---
-![Диаграмма](AREMcO3op0N59vRXRVAdvITGFzdI1EO5kceHpqu4W8eA.png)
+![Диаграмма](diagramma.png)
 ---
 
 ## О проекте
