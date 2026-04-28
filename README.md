@@ -8,7 +8,7 @@
 * Родионов Даниил
 
 ---
-![Диаграмма](diagramma.png)
+![Диаграмма](WpfApp1/images/diagramma.png)
 ---
 
 ## О проекте
