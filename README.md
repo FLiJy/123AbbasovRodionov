@@ -9,6 +9,7 @@
 
 ---
 Диаграмма
+
 ![Диаграмма](WpfApp1/images/diagramma.png)
 ---
 
