@@ -4,15 +4,12 @@ using System.Text;
 
 namespace PR7_Variant13
 {
-    /// <summary>
-    /// Реализация шифра Билайна (Rail Fence / Zigzag Cipher) с произвольным количеством строк.
-    /// Поддерживает русский и английский алфавиты, сохраняет регистр и неалфавитные символы.
-    /// </summary>
+
+    /// Реализация шифра Билайна с произвольным количеством строк.
+    /// Поддерживает русский и английский алфавит
     public static class BelayneCipher
     {
-        /// <summary>
         /// Зашифровывает текст методом Билайна.
-        /// </summary>
         /// <param name="text">Исходный текст</param>
         /// <param name="numRows">Количество строк (≥ 2)</param>
         /// <returns>Зашифрованный текст</returns>
@@ -60,9 +57,7 @@ namespace PR7_Variant13
             return result.ToString();
         }
 
-        /// <summary>
         /// Расшифровывает текст, зашифрованный методом Билайна.
-        /// </summary>
         /// <param name="cipher">Зашифрованный текст</param>
         /// <param name="numRows">Количество строк</param>
         /// <returns>Исходный текст</returns>
